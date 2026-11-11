@@ -1,0 +1,20 @@
+Faça um sistema web conforme as especificações abaixo
+
+a) use a biblioteca streamlit
+b) use o gerenciador de pacotes "uv"
+c) use a biblioteca SQLAlchemty para criar classes persistentes
+d) configure conexões de banco de dados para o sqlite e para o mysql
+e) o sqlite será usado para testes locais
+f) o mysql será usado em produção
+g) faça páginas de CRUD (create, retrieve, update e delete) para cada entidade do sistema
+h) use variável de ambiente para armazenar as configurações de conexão com o banco de dados mysql
+i) posteriormente será feito deploy no site recomendado pelo streamlit: https://share.streamlit.io/
+j) deve haver o arquivo README.md, explicando como executar o sistema, e falando sobre o sistema
+k) deve haver o arquivo .gitignore, com o devido conteúdo
+l) coloque os códigos dentro de uma pasta chamada "src"
+
+O sistema deverá tratar deste contexto:
+
+O Organizador de Laboratório é uma aplicação multiplataforma — desenvolvida para uso tanto em computadores quanto em dispositivos móveis — projetada com o objetivo de otimizar a gestão e a rotina de uso do Laboratório de Física do Instituto Federal Catarinense (IFC), Campus Blumenau. O programa centraliza a localização detalhada de todos os equipamentos do espaço, mapeando de forma precisa onde cada item se encontra, incluindo a especificação de bancada, porta e gaveta. Além da gestão do acervo físico, a ferramenta permite registrar e catalogar os experimentos científicos possíveis de serem executados com a estrutura e os recursos disponíveis no campus.
+
+O acesso ao sistema é realizado exclusivamente por meio do e-mail institucional, que atua como o validador de perfil para diferenciar a atuação de docentes e discentes. Enquanto os docentes possuem permissão total para cadastrar, editar e gerenciar equipamentos e roteiros de experimentos, os discentes têm acesso restrito à visualização e consulta das informações. O sistema conta com um fluxo completo de autenticação, exigindo cadastro e login para todos os usuários, além de disponibilizar a funcionalidade de recuperação de acesso via "esqueceu a senha". Para personalizar a experiência dos usuários, a aplicação oferece recursos que permitem a criação de pastas temáticas e a marcação de itens e experimentos como favoritos, facilitando a navegação e o acesso rápido às informações mais relevantes do laboratório.
